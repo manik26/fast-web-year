@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+/* header styles */
+
+.bg-img-banner{
+    background-image: url('banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-banner{
+    text-align: right;
+    padding:200px 230px ;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    margin-bottom: 24px;
+}
+.banner-sub-title{
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(246, 244, 244);
+    color: #005FAC;
+}
+/* main info My failures of previous year */
+
+.main-info{
+    display: flex;
+    margin: 130px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-info{
+    padding-right: 200px;
+}
+.title{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.sub-title{
+    font-size:16px;
+}
+/* li color style */
+.discription{
+    list-style: none;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+li::before{
+    content: "\2714";
+    color: rgb(20, 237, 20);
+    margin: 7px;
+}
+
