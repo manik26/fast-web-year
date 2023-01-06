@@ -17,6 +17,7 @@
     font-weight: 700;
     line-height: 76px;
     margin-bottom: 24px;
+    color: #151414;
 }
 .banner-sub-title{
     font-size: 16px;
@@ -56,10 +57,45 @@
     list-style: none;
     margin-bottom: 8px;
     margin-top: 16px;
+    color: #444343;
 }
 li::before{
     content: "\2714";
     color: rgb(20, 237, 20);
     margin: 7px;
 }
+/* main-content-info */
+.main-content-info{
+    margin: 130px 200px;
+}
+#my-plan{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin: 130px 0px 50px 0px;
+    
+}
+.icon-flex{
+    display: flex;
+    justify-content: space-between;
+    margin:0 180px;
+}
+.icons{
+    text-align: center
+}
+.resume{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 16px;
+    color: #151414;
+}
+.icon-text{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
 
+/* img,background-img */
+.background-ing{
+    margin:130px 230px;
+}
