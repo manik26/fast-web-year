@@ -113,4 +113,49 @@ li::before{
   .awlays{
     margin-bottom: 25px;
   }
+  /* footer styles */
+
+  .footer{
+    padding: 130px 230px;
+    gap: 330px;
+  }
+  .footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+  }
+  .footer-conten{
+    margin: 16px 0 24px 0;
+    color: #FFFFFF;
+  }
+  #inof{
+    margin: 16px 0 24px 0;
+  }
+  .subscribe{
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .email{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 20px ;
+    border-radius: 8px;
+    line-height: 21px;
+    border: 1px solid #FFFFFF;
+    background: #151414;
+  }
+  .balck{
+    background-color: #151414;
+    color: #FFFFFF;
+  }
+  #btn{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+  }
+
   
