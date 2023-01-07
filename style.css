@@ -68,7 +68,7 @@ li::before{
 .main-content-info{
     margin: 130px 220px;
 }
-#my-plan{
+.my-plan{
     font-weight: 700;
     font-size: 40px;
     text-align: center;
@@ -157,5 +157,28 @@ li::before{
     background-color: #005FAC;
     color: #FFFFFF;
   }
-
-  
+/* ext-skills-container color */
+.ext-skills-container{
+   display: flex;
+   gap: 40px;
+}
+.ext-slill{
+  background: #858585;
+  box-shadow: 0px 8px 58px#0000b6;
+  border-radius: 5px;
+  padding: 30px;
+}
+.ext-skill-title{
+  font-size: 20px;
+  font-weight: 750;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+.ext-skill-description{
+  color: #353535;
+  font-size: 17px;
+  font-weight: 520;
+}
+.what-i-do{
+  margin: 130px 230px;
+}
