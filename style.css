@@ -17,11 +17,12 @@
     font-weight: 700;
     line-height: 76px;
     margin-bottom: 24px;
-    color: #151414;
+    color: #FFFFFF;
 }
 .banner-sub-title{
     font-size: 16px;
     margin-bottom: 32px;
+    color: #FFFFFF;
 }
 .btn-primary{
     font-weight: 600;
@@ -41,9 +42,6 @@
     justify-content: space-between;
     align-items: center;
 }
-.title-info{
-    padding-right: 200px;
-}
 .title{
     margin-bottom: 24px;
     font-weight: 700;
@@ -53,6 +51,7 @@
     font-size:16px;
 }
 /* li color style */
+
 .discription{
     list-style: none;
     margin-bottom: 8px;
@@ -65,8 +64,9 @@ li::before{
     margin: 7px;
 }
 /* main-content-info */
+
 .main-content-info{
-    margin: 130px 200px;
+    margin: 130px 220px;
 }
 #my-plan{
     font-weight: 700;
@@ -78,7 +78,6 @@ li::before{
 .icon-flex{
     display: flex;
     justify-content: space-between;
-    margin:0 180px;
 }
 .icons{
     text-align: center
@@ -94,8 +93,24 @@ li::before{
     font-weight: 500;
     font-size: 25px;
 }
-
 /* img,background-img */
-.background-ing{
-    margin:130px 230px;
-}
+
+.container {
+    position: relative;
+    text-align: center,left;
+    color: white;
+    margin: 130px 230px;
+    background-image: url('watch.png');
+    background-repeat: no-repeat;
+  }
+  .center-left-text{
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    top: 20%;
+    left: 10%;  
+  }
+  .awlays{
+    margin-bottom: 25px;
+  }
+  
